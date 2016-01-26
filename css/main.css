@@ -1,0 +1,173 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background-color: #dce0e6;
+	font-family: Arial, Helvetica, sans-serif
+}
+a{
+	text-decoration: none!important;
+}
+#logo{
+	height: 100px;
+	margin-left: 50px;
+}
+.spanTele{
+	position: absolute;
+	right: 10px;
+}
+.container{
+	height: 970px;
+	background-color: #fff;
+	padding: 0px;
+}
+
+.header{
+	border:1px solid #ccc;
+	height: 150px;
+	background: #fff;
+	position: relative;
+}
+.tabHeader{
+	position: absolute;
+	background: #000;
+	height: 49px;
+	bottom: 0px;
+}
+.tabHeader ul{
+	margin-top: 11px;
+	margin-left: 20px;
+}
+.tabHeader ul li{
+	display: inline;
+
+	background: #000;
+	font-size: 20px;
+	padding: 14px;
+	padding-bottom: 13px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.tabHeader ul li a{
+	color: #fff;
+}
+.tabHeader ul li:hover{
+	background: #ccc;
+}
+.arrow{
+	position: absolute;
+	font-size: 220%;
+	top:50%;
+}
+.footer{
+	padding: 10px;
+	text-align: center;
+
+	background-color: #000;
+	color: #fff;
+}
+.footer span{
+	margin-right: 10px;
+	border: 1px solid #66ccff;
+	background-color: #66ccff;
+	padding: 3px 5px;
+	color: black;
+	cursor: pointer;
+}
+.footer span i{
+	color: red;
+	margin-right: 5px;
+}
+.active{
+	background: #eee!important;
+
+}
+.active a{
+	color: #567ebb!important;
+}
+.indexContent{
+	padding: 0px;
+	height: 400px;
+}
+.content{
+	padding: 0 10px;
+	height: 70%;
+}
+.content a{
+	padding-top: 10px;
+}
+.mapContainer{
+	padding: 10px!important;
+	border: 1px solid #fff; 
+}
+.leftBar{
+	margin: 10px 10px 0px 10px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.activeli{
+	background: #567ebb;
+	margin-left: -10px!important;
+	margin-right: -10px!important;
+}
+.activeli a{
+	color: #fff;
+}
+.contactInfo{
+	margin-top: 50px;
+	height: 300px;
+	padding-left: 20px!important;
+	padding-right: 20px!important;
+	text-align: center;
+}
+.lead{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.fa-envelope{
+	color: #606d80;
+}
+.fa-qq{
+	color: #606d80;
+}
+.fa-phone{
+	color: #606d80;
+}
+.indexDownMap{
+	padding: 0 20px;
+}
+.infoBox{
+	padding: 0px;
+	border:1px solid #bbb;
+	box-shadow: 0px 5px 5px #eee;
+}
+.first{
+	border-right:0px solid #fff; 
+}
+.infoBoxTitle{
+	background: #567ebb;
+	padding: 10px;
+	color:#fff;
+	box-shadow: 0px 5px 3px #eee;
+	margin-left: -1px;
+	margin-right: -1px;
+	margin-top: -1px;
+
+}
+.infoBoxContent{
+	height: 200px;
+	margin: 8px 12px;
+}
+#mapContainer{
+	height: 215px;
+	margin-top: 1px;
+}
+.myhr{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+table,td{
+	border:1px solid #ccc;
+	padding: 3px 8px;
+}
