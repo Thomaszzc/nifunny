@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>web安全色</title>
+	<style type="text/css">
+		.wrap{
+			display: inline-block;
+			width: 200px;
+			height: 200px;
+			padding: 10px;
+			text-align: center;
+		}
+		.wrap div{
+			width: 200px;
+			height: 180px;
+			border-radius: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>	
+	<script type="text/javascript">
+		var cList=['00','33','66','99','CC','FF'];
+		for(var i in cList){
+			for(var j in cList){
+				for(var k in cList){
+					var div="<div class='wrap'><div style='background-color:#"+cList[i]+cList[j]+cList[k]+"'></div><label>#"+cList[i]+cList[j]+cList[k]+"</label></div>";
+					$(".container").append(div);
+				}
+			}
+		}
+	</script>
+</body>
+</html>
